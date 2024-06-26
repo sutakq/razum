@@ -3,9 +3,9 @@
 
 try{
     $host = 'localhost';
-    $dbname = 'razumNeiro';
+    $dbname = 'razumplatform';
     $user = 'root';
-    $pass = '';
+    $pass = 'q*TG61mg,sB+EB';
     $database = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8;", $user, $pass);
     return $database;
 }
